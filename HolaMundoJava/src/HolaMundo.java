@@ -204,7 +204,26 @@ public class HolaMundo {
 
         int a = 3, b = 2; // var = tenemos que definir cada variable en cada linea
         var resultado = a + b;
-        System.out.println("resultado = " + resultado);
+        System.out.println("Resultado de la suma = " + resultado);
         
+        resultado = a - b;
+        System.out.println("Resultado de la resta = " + resultado);
+        
+        resultado = a * b;
+        System.out.println("Resultado de la multiplicación = " + resultado);
+        
+        resultado = a / b; // por se tipo entero la división lo cambiará a tipo entero // también ambas variables es entero
+        var resultado2 = 3F / 2;
+        System.out.println("Resultado de la división = " + resultado);
+        System.out.println("resultado2 = " + resultado2);
+        
+        resultado = a % b;
+        System.out.println("Resultado del residuo = " + resultado);
+        
+        if (a % 2 == 0) {
+            System.out.println("El número es par");
+        } else {
+            System.out.println("El número es impar");
+        }
     }
 }
